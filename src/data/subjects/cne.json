@@ -1,0 +1,587 @@
+{
+  "id": "cne",
+  "title": "CNE",
+  "longName": "Mạng máy tính",
+  "description": "Đề ôn tập CNE Final Exam Review – Networking Concepts and Commands.",
+  "source": "https://www.studocu.vn/vn/document/truong-dai-hoc-ha-noi/mang-may-tinh/cne-final-exam-review-networking-concepts-and-commands/125264337",
+  "questions": [
+    {
+      "id": "q-1",
+      "text": "Which of the following commands on Windows is used to test reachability of a remote host and show (the part of) the list of intermediary hops?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "tracert",
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "ping",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "nslookup",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "nmap",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-2",
+      "text": "Given this network: 204.15.5.0/26. How many hosts are available for this network?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "64",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "62",
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "60",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "31",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-3",
+      "text": "What is a correct netmask for a class A network?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "255.0.0.0",
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "0.0.0.255",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "255.255.0.0",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "255.255.255.0",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-4",
+      "text": "What is the first byte range of a class A network address?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1-127",
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "0-127",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "192-223",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "128-191",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-5",
+      "text": "Netmask is used to determine:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "An IP address is in the subnet",
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "An IP address is a gateway",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "An IP address is a",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "An IP address is a server",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-6",
+      "text": "Multicast IPv6 Address is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "FF00::/8",
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "FE00::/8",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "FF00::/10",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "FE00::/10",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-7",
+      "text": "If the physical address of an interface is 00-90-27-17-FC- OF, what is EUI-64 format address of this interface?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "0290:27FF:FE17:FCOF",
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "0290:27FE:FE17:FCOF",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "0290:27FE:FF17:FCOF",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "0290:27FF:FF17:FCOF",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-8",
+      "text": "How many bits are there in an IPv6 network address?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "32",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "64",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "128",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "100",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-9",
+      "text": "How do they often write down an IPv6 address?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "In colon hexadecimal format",
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "In dotted decimal format",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "In colon decimal format",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "In dotted hexadecimal format",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-10",
+      "text": "Which of the following protocols uses distance vector routing algorithm?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "RIP",
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "OSPF",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "BGP",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "EGP",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-11",
+      "text": "Which of the following protocols uses link state routing algorithm?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "RIP",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "OSPF",
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "BGP",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "PGP",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-12",
+      "text": "Non-adaptive algorithm is used in",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dynamic routing protocols",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Static routing protocols",
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "Distance vector routing protocols",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Link state routing protocols",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-13",
+      "text": "Which of the following services is connectionless?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "TCP",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "UDP",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-14",
+      "text": "In TCP, the receiver merges the data based on",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sequence number",
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "Acknowledgement number",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Port number",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Arriving order:",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-15",
+      "text": "What is the socket address?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "IP address",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Port number",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "MAC address + Port number",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "IP address + Port number",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-16",
+      "text": "How to establish a TCP connection?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2-way handshake occurs",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "3-way handshake occurs",
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "4-way handshake occurs",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "5-way handshake occurs",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-17",
+      "text": "What is the command to show IPv4 routing table?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ipconfig",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "network...",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "show ip route",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "ip route...",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-18",
+      "text": "On Windows Server network operating system, what is often used to implement and administer some network services like web serv email server, ftp server?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "AD (Active Directory)",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "MMC (Microsoft Management Console)",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "IIS (Internet Information Services)",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "Hyper-V",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-19",
+      "text": "What is the command to set up IPv4 static routing in Packet tracer?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ip route...",
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "network ...",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "ip address...",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "router...",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-20",
+      "text": "Which of the following is the address of the router?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The IP address",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "The TCP address",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "The subnet mask",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "The default gateway",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-21",
+      "text": "What can greatly reduce IP address configuration problems?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "WINS Server",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "WINS Proxy",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "DHCP Server",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "FTP Server",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-22",
+      "text": "What is default port of POP3 service?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "80",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "25",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "110",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "53",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-23",
+      "text": "On which of the following protocols in Transport layer is SNMP (Simple Network Management Protocol) based?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "UDP",
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "TCP",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
