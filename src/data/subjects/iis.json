@@ -53,7 +53,7 @@
         {
           "letter": "D",
           "text": "statement of performance of characteristics and requirements.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -131,7 +131,7 @@
         {
           "letter": "D",
           "text": "Security kernel",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -209,7 +209,7 @@
         {
           "letter": "D",
           "text": "The attacker must have write access to the password file.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -256,7 +256,7 @@
         {
           "letter": "C",
           "text": "All of the choices.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "letter": "D",
@@ -355,7 +355,7 @@
         {
           "letter": "C",
           "text": "Labeling",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -376,7 +376,7 @@
         {
           "letter": "C",
           "text": "It allows you to specify and enforce enterprise-specific security policies in a way that maps to your organizations structure.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "letter": "D",
@@ -485,7 +485,7 @@
         {
           "letter": "D",
           "text": "object-relational database",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -636,7 +636,7 @@
         {
           "letter": "C",
           "text": "Labeling",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -678,12 +678,12 @@
         {
           "letter": "B",
           "text": "Hardware and firmware have undergone periodic testing to verify that they are functioning properly",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "letter": "C",
           "text": "Design specifications have been verified against the formal top-level specification",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "letter": "D",
@@ -704,7 +704,7 @@
         {
           "letter": "B",
           "text": "Biometrics",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "letter": "C",
@@ -922,7 +922,7 @@
         {
           "letter": "D",
           "text": "address-based mechanism",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -948,7 +948,7 @@
         {
           "letter": "D",
           "text": "domain of a relation",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -1021,7 +1021,7 @@
         {
           "letter": "C",
           "text": "Neural networking",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -1229,7 +1229,7 @@
         {
           "letter": "D",
           "text": "Once a user obtains access to the system through the initial log-on they can freely roam the network resources without any restrictions",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -1266,12 +1266,12 @@
         {
           "letter": "A",
           "text": "Are integrity verification programs used by applications to look for evidences of data tampering, errors, and omissions?",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "letter": "B",
           "text": "Are system components tested, documented, and approved prior to promotion to production?",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "letter": "C",
@@ -1385,7 +1385,7 @@
         {
           "letter": "D",
           "text": "Identification is the child process of authentication.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -1453,7 +1453,7 @@
         {
           "letter": "D",
           "text": "Flight time",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -1594,7 +1594,7 @@
         {
           "letter": "A",
           "text": "Call-back",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "letter": "B",
@@ -1635,7 +1635,7 @@
         {
           "letter": "D",
           "text": "what part of the body to be used and how to accomplish identification to be viable",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -1661,7 +1661,7 @@
         {
           "letter": "D",
           "text": "Multipartite",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -1766,7 +1766,7 @@
         {
           "letter": "A",
           "text": "The subject’s sensitivity label must dominate the object’s sensitivity label",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "letter": "B",
@@ -2015,7 +2015,7 @@
         {
           "letter": "D",
           "text": "Criticality of the operations affected",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
@@ -2041,7 +2041,7 @@
         {
           "letter": "D",
           "text": "Review of software control features and/or parameters",
-          "isCorrect": false
+          "isCorrect": true
         }
       ]
     },
