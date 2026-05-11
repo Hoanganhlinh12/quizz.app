@@ -1,0 +1,2174 @@
+{
+  "id": "iis",
+  "title": "IIS",
+  "longName": "Nhập môn an toàn thông tin",
+  "description": "Đề ôn tập IIS Quiz Final Trial.",
+  "source": "https://www.studocu.vn/vn/document/truong-dai-hoc-ha-noi/nhap-mon-an-toan-thong-tin/iis-quiz-final-trial/111635037",
+  "questions": [
+    {
+      "id": "q-1",
+      "text": "What is known as decoy system designed to lure a potential attacker away from critical systems?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "File Integrity Checker",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Honey Pots",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Padded Cells",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "Vulnerability Analysis Systems",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-2",
+      "text": "All of the following are basic components of a security policy EXCEPT the _____.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "definition of the issue and statement of relevant terms.",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "statement of applicability and compliance requirements.",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "statement of roles and responsibilities",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "statement of performance of characteristics and requirements.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-3",
+      "text": "Which of the following does not address Database Management Systems (DBMS) Security?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Padded Cells",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Perturbation",
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "Partitioning",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Cell suppression",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-4",
+      "text": "What is called a type of access control where a central authority determines what subjects can have access to certain objects, based on the organizational security policy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Rule-based access control",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Non-discretionary Access Control",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Mandatory Access Control",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "Discretionary Access Control",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-5",
+      "text": "Which of the following implements the authorized access relationship between subjects and objects of a system?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Security model",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Information flow model",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Reference kernel",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Security kernel",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-6",
+      "text": "Which of the following is an advantage of using a high-level programming language?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It requires programmer-controlled storage management",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "It decreases the total amount of code writers",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "It allows programmers to define syntax",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "It enforces coding standards",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-7",
+      "text": "Why must senior management endorse a security policy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "So that they will accept ownership for security within the organization.",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "So that employees will follow the policy directives.",
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "So that they can be held legally accountable.",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "So that external bodies will recognize the organizations commitment to security.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-8",
+      "text": "Which one of the following conditions is NOT necessary for a long dictionary attack to succeed?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The attacker must have read access to the password file.",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "The attacker must know the password encryption mechanism and key variable.",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "The attacker must have access to the target system.",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "The attacker must have write access to the password file.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-9",
+      "text": "Identification establishes:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "None of the choices.",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Authentication",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Accountability",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Authorization",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-10",
+      "text": "Which of the following correctly describe “good” security practice?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Accounts should be monitored regularly.",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "You should have a procedure in place to verify password strength.",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "All of the choices.",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "You should ensure that there are no accounts without passwords.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-11",
+      "text": "Which of the following statements pertaining to RADIUS is incorrect?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A RADIUS server can act as a proxy server, forwarding client requests to other authentication domains.",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Most of RADIUS clients have a capability to query secondary RADIUS servers for redundancy",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Most RADIUS servers can work with DIAMETER servers.",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Most RADIUS servers have built-in database connectivity for billing and reporting purposes",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-12",
+      "text": "Which of the following is not a part of risk analysis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Quantify the impact of potential threats",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Choose the best countermeasure",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Identify risks",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "Provide an economic balance between the impact of the risk and the cost of the associated countermeasures",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-13",
+      "text": "Under (Mandatory Access Control) MAC, who can change the category of a resource?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Administrators only.",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "All users.",
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "All managers.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-14",
+      "text": "In order to avoid mishandling of media or information, you should consider using:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ticket",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Token",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Labeling",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-15",
+      "text": "Which of the following correctly describe Role based access control?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It allows you to specify and enforce enterprise-specific security policies in a way that maps to your ACL.",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "It allows you to specify and enforce enterprise-specific security policies in a way that maps to your ticketing system.",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "It allows you to specify and enforce enterprise-specific security policies in a way that maps to your organizations structure.",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "It allows you to specify and enforce enterprise-specific security policies in a way that maps to your user profile groups.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-16",
+      "text": "What is called the act of a user professing an identity to a system, usually in the form of a log-on ID?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Authentication",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Identification",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Confidentiality",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "Integrity",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-17",
+      "text": "What reason would a network administrator leverage promiscuous mode?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "To capture only unauthorized internal/external use.",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "To screen out all network errors that affect network statistical information.",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "To monitor the network to gain a complete statistical picture of activity.",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "To monitor only unauthorized activity and use.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-18",
+      "text": "If your property insurance has Actual Cost Evaluation (ACV) clause your damaged property will be compensated:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Based on the value of the item on the date of loss",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Based on value of item on the date of loss plus 10 percent",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Based on new item for old regardless of condition of lost item",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "Based on value of item one month before loss",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-19",
+      "text": "Which of the following is the marriage of object-oriented and relational technologies combining the attributes of both?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "object-management database",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "object-oriented database",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "object-linking database",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "object-relational database",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-20",
+      "text": "Which one of the following properties of a transaction processing system ensures that once a transaction completes successfully (commits), the update service even if there is a system failure?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Isolation",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Durability",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Atomicity",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "Consistency",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-21",
+      "text": "With _____, access decisions are based on the roles that individual users have as part of an organization.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Token based access control",
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "Server based access control",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Rule based access control",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Role based access control",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-22",
+      "text": "A “critical application” is one that MUST _____.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Be constantly monitored by operations management",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Remain operational for the organization to survive",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Be subject to continual program maintenance",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "Undergo continual risk assessments",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-23",
+      "text": "Discretionary access control (DAC) and mandatory access control (MAC) policies can be effectively replaced by:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Server based access control.",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Role based access control.",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Rule based access control.",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "Token based access control.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-24",
+      "text": "The type of discretionary access control that is based on an individual’s identity is called:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Rule-based access control",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Identity-based access control",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "LatÝce-based access control",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "Non-Discretionary access control",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-25",
+      "text": "Under the mandatory access control (MAC) control system, what is required?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sensing",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Performance monitoring",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Labeling",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-26",
+      "text": "Which of the following is the correct account policy you should follow?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "All active accounts must have a password.",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "All active accounts must have a long and complex pass phrase.",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "All of the choices.",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "All inactive accounts must have a password.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-27",
+      "text": "What does \"System Integrity\" mean?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The software of the system has been implemented as designed.",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Hardware and firmware have undergone periodic testing to verify that they are functioning properly",
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "Design specifications have been verified against the formal top-level specification",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Users can’t tamper with processes they do not own",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-28",
+      "text": "What is called an automated means of identifying or authenticating the identity of a living person based on physiological or behavioral characteristics?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Macrometrics",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Biometrics",
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "MicroBiometrics",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Micrometrics",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-29",
+      "text": "The design phase in a system development life cycle includes all of the following EXCEPT",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Developing a validation, verification, and testing plan.",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Developing an operations and maintenance manual.",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Determining sufÏcient security controls.",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "Conducting a detailed design review.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-30",
+      "text": "Which of the following refers to the number of columns in a relation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "cardinality",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "depth",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "degree",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "breadth",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-31",
+      "text": "Information security is the protection of data. Information will be protected mainly based on:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Its sensitivity to the company.",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "All of the choices.",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Its confidentiality.",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "Its value.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-32",
+      "text": "In non-discretionary access control, a central authority determines what subjects can have access to certain objects based on the organizational security policy. The access controls may be based on:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the individual’s role in the organization",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "the group-dynamics as they relate to the individual’s role in the organization",
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "the society’s role in the organization",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "the group-dynamics as they relate to the master-slave role in the organization",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-33",
+      "text": "What is one advantage of deploying Role based access control in large networked applications?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Higher security",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Higher bandwidth",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Lower cost",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "User friendliness",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-34",
+      "text": "Which access control model enables the owner of the resource to specify what subjects can access specific resources?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Discretionary Access Control",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Mandatory Access Control",
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "Sensitive Access Control",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Role-based Access Control",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-35",
+      "text": "Which one of the following tests determines whether the content of data within an application program falls within predetermined limits?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Parity check",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Mathematical accuracy check",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Reasonableness check",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Check digit verification",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-36",
+      "text": "Which one of the following authentication mechanisms creates a problem for mobile users?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "challenge response mechanism",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "reusable password mechanism",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "one-time password mechanism",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "address-based mechanism",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-37",
+      "text": "Which of the following can be defined as the set of allowable values that an attribute can take?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "domain analysis of a relation",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "domains, in database of a relation",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "domain name service of a relation",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "domain of a relation",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-38",
+      "text": "What is called the formal acceptance of the adequacy of a system’s overall security by the management?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Certification",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Accreditation",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Evaluation",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "Acceptance",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-39",
+      "text": "Which of the following would best describe the difference between white-box testing and black-box testing?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "White-box testing is performed by an independent programmer team",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Black-box testing involves the business units",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "White-box testing examines the program internal logical structure",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Black-box testing uses the bottom-up approach",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-40",
+      "text": "Which of the following is a facial feature identification product that can employ artificial intelligence and can require the system to learn from experience?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Digital nervous system.",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Dynamic signature verification (DSV)",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Neural networking",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-41",
+      "text": "Which of the following methodologies is appropriate for planning and controlling activities and resources in a system project?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gantt charts",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Program evaluation review technique (PERT)",
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "Function point analysis (FP)",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Critical path methodology (CPM)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-42",
+      "text": "Which of the following statements is incorrect?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "There has never been a problem of lost keys",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Since the early days of mankind humans have struggled with the problems of protecting assets",
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "Human guard is an inefÏcient and sometimes ineffective method of protecting resources",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "The addition of a PIN keypad to the card reader was a solution to unreported card or lost cards problems",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-43",
+      "text": "Which type of attack will most likely provide an attacker with multiple passwords to authenticate to a system?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Password snifÏng",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Dumpster diving",
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "Social engineering",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Dictionary attack",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-44",
+      "text": "The Common Criteria (CC) represents requirements for IT security of a product or system under which distinct categories?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Protocol Profile (PP) and Security Target (ST)",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Functional and assurance",
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "Targets of Evaluation (TOE) and Protection Profile (PP)",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Integrity and control",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-45",
+      "text": "What is the act of willfully changing data, using fraudulent input or removal of controls called?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Data trashing",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Data capturing",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Data diddling",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Data contaminating",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-46",
+      "text": "Which of the following can be used to protect your system against brute force password attack?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Employees must send in a signed email before obtaining a password.",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "After three unsuccessful attempts to enter a password, the account will be locked.",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Increase the value of password age.",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "Decrease the value of password history.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-47",
+      "text": "Which model, based on the premise that the quality of a software product is a direct function of the quality of it’s associated software development and maintenance processes, introduced five levels with which the maturity of an organization involved in the software process is evaluated?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The IDEAL Model",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "The Software Capability Maturity Model",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "The total Quality Model (TQM)",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "The Spiral Model",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-48",
+      "text": "Which of the following describes the major disadvantage of many SSO implementations?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The initial logon process is cumbersome to discourage potential intruders",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Once a user obtains access to the system through the initial log-on, he has to logout from all other systems",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Once a user obtains access to the system through the initial log-on, they only need to logon to some applications.",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Once a user obtains access to the system through the initial log-on they can freely roam the network resources without any restrictions",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-49",
+      "text": "The technique of skimming small amounts of money from multiple transactions is called the _____?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Synchronous attack technique",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Scavenger technique",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Salami technique",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Leakage technique",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-50",
+      "text": "Which of the following questions is less likely to help in assessing controls over hardware and software maintenance?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Are integrity verification programs used by applications to look for evidences of data tampering, errors, and omissions?",
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "Are system components tested, documented, and approved prior to promotion to production?",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Is there version control?",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Is access to all program libraries restricted and controlled?",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-51",
+      "text": "Which one of the following are examples of security and controls that would be found in a “trusted” application system?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Reconciliation routines and data labels",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Correction routines and reliability",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "File integrity routines and audit trail",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Data validation and reliability",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-52",
+      "text": "What is an important factor affecting the time required to perpetrate a manual trial and error attack to gain access to a target computer system?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Encryption algorithm used for password transfer.",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Keyspace for the password.",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Expertise of the person performing the attack.",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "Processing speed of the system executing the attack.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-53",
+      "text": "Identification and authentication are the keystones of most access control systems. Identification establishes:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "user accountability for the actions on the system",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "authentication for actions on the system",
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "EDP department accountability for the actions of users on the system",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "top management accountability for the actions on the system",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-54",
+      "text": "Which of the following correctly describe the difference between identification and authentication?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Identification is another name of authentication.",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Identification is a means to verify who you are, while authentication is what you are authorized to perform.",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Authentication is a means to verify who you are, while identification is what you are authorized to perform.",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Identification is the child process of authentication.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-55",
+      "text": "Which of the following refers to the data left on the media after the media has been erased?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "remanence",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "recovery",
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "sticky bits",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "semi-hidden",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-56",
+      "text": "Which of the following focuses on the basic features and architecture of a system?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Covert channel assurance b. Operational assurance",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Life cycle assurance",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-57",
+      "text": "In the world of keystroke dynamics, what represents the amount of time it takes a person to switch between keys?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Systems time",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Dynamic time",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Dwell time",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Flight time",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-58",
+      "text": "Which of the following is commonly used for retrofitÝng multilevel security to a database management system?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kernel",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "controller",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "trusted front-end",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "trusted back-end",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-59",
+      "text": "With role-based access control (RBAC), each user can be assigned:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A token role.",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Only one role.",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "A security token.",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "One or more roles.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-60",
+      "text": "Which of the following is an important part of database design that ensures that attributes in a table depend only on the primary key?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Normalization",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Assimilation",
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "Reduction",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Compaction",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-61",
+      "text": "In terms of the order of acceptance, which of the following technologies is the MOST accepted?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Keystroke pattern",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Hand geometry",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Voice Pattern",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Signature",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-62",
+      "text": "Which one of the following control steps is usually NOT performed in data warehousing applications?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Reconcile data moved between the operations environment and data warehouse.",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Monitor the data purging plan.",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Monitor summary tables for regular use.",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Control meta data from being used interactively.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-63",
+      "text": "Which of the following centralized access control mechanisms is not appropriate for mobile workers access the corporate network over analog lines?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Call-back",
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "TACACS",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "RADIUS",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "CHAP",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-64",
+      "text": "In biometric identification systems, at the beginning, it was soon apparent that truly positive identification could only be based on physical attributes of a person. This raised the necessicity of answering 2 questions:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "what was the age of a person and his income level",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "what was the sex of a person and his age",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "what was the tone of the voice of a person and his habits",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "what part of the body to be used and how to accomplish identification to be viable",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-65",
+      "text": "What is the term used to describe a virus that can infect both program files and boot sectors?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Polymorphic",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Multiple encrypting",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Stealth",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Multipartite",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-66",
+      "text": "Which of the following will you consider as a “role” under a role based access control system?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bank teller",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Bank network",
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "Bank rules",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Bank computer",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-67",
+      "text": "Which of the following access control types gives “UPDATE” privileges on Structured Query Language (SQL) database objects to specific users or groups?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Supplemental",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Mandatory",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Discretionary",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "System",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-68",
+      "text": "Which of the following forms of authentication would most likely apply a digital signature algorithm to every bit of data that is sent from the claimant to the verifier?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Encrypted authentication b. Dynamic authentication c. Continuous authentication",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Robust authentication",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-69",
+      "text": "Which of the following best explains why computerized information systems frequently fail to meet the needs of users?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Inadequate project management.",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Constantly changing user needs",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Inadequate user participation in defining the system’s requirements",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Inadequate quality assurance (QA) tools",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-70",
+      "text": "What is necessary for a subject to have write access to an object in a Multi-Level Security Policy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The subject’s sensitivity label must dominate the object’s sensitivity label",
+          "isCorrect": true
+        },
+        {
+          "letter": "B",
+          "text": "The subject’s sensitivity label subordinates the object’s sensitivity label",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "The subject’s sensitivity label is dominated by the object’s sensitivity label",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "The subject’s sensitivity label is subordinated by the object’s sensitivity label",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-71",
+      "text": "What is an effective countermeasure against Trojan horse attack that targets smart cards?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Handprint driver architecture.",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Singe-access device driver architecture.",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Fingerprint driver architecture.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-72",
+      "text": "To support legacy applications that rely on risky protocols (e.g,, plain text passwords), which one of the following can be implemented to mitigate the risks on a corporate network?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Implement a virtual private network (VPN) with controls on workstations joining the VPN.",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Implement strong centrally generated passwords to control use of the vulnerable applications.",
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "Ensure that only authorized trained users have access to workstations through physical access control.",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Ensure audit logging is enabled on all hosts and applications with associated frequent log reviews.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-73",
+      "text": "Which of the following is a means of restricting access to objects based on the identity of the subject to which they belong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Discretionary access control",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Mandatory access control",
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "Group access control",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "User access control",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-74",
+      "text": "Which one of the following is commonly used for retrofitÝng multilevel security to a Database Management System?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kernel controller",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Trusted front-end",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Trusted kernel",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "Front end controller",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-75",
+      "text": "Which one of the following is the MAIN goal of a security awareness program when addressing senior management?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Provide a vehicle for communicating security procedures.",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Provide a forum to communicate user responsibilities.",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Provide a clear understanding of potential risk and exposure.",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Provide a forum for disclosing exposure and risk analysis.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-76",
+      "text": "Which one of the following traits allows macro viruses to spread more effectively than other types?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "They can be transported between different operating systems.",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "They attach to executable and batch applications.",
+          "isCorrect": true
+        },
+        {
+          "letter": "C",
+          "text": "They infect macro systems as well as micro computers.",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "They spread in distributed systems without detection",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-77",
+      "text": "To ensure integrity, a payroll application program may record transactions in the appropriate accounting period by using",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Application checkpoints",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Accrual journal entries",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Time and date stamps",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "End of period journals",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-78",
+      "text": "With mandatory access control (MAC), who may NOT make decisions that derive from policy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "All users",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "The guests.",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "All users except the administrator.",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "The administrator.",
+          "isCorrect": false
+        },
+        {
+          "letter": "E",
+          "text": "The power users.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-79",
+      "text": "What is the window of time for recovery of information processing capabilities based on?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Quality of the data to be processed",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Nature of the disaster",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Applications that are mainframe based",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Criticality of the operations affected",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-80",
+      "text": "What is the most effective means of determining how controls are functioning within an operating system?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Review of operating system manual",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Interview with computer operator",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Interview with product vendor",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Review of software control features and/or parameters",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-81",
+      "text": "In terms of the order of effectiveness, which of the following technologies is the least effective?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hand geometry",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "Voice pattern",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Signature",
+          "isCorrect": false
+        },
+        {
+          "letter": "D",
+          "text": "Keystroke pattern",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-82",
+      "text": "What tool is being used to determine whether attackers have altered system files of executables?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Padded Cells",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "File Integrity Checker",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Vulnerability Analysis Systems",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "Honey Pots",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-83",
+      "text": "Which of the following would be the most serious risk where a systems development life cycle methodology is inadequate?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The project will be completed late",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "The project will fail to meet business and user needs",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "The project will exceed the cost estimates",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "The project will be incompatible with existing systems",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "q-84",
+      "text": "Which of the following statements pertaining to the Trusted Computer System Evaluation Criteria (TCSEC) is incorrect?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "TCSEC provides a means to evaluate the trustworthiness of an information system",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "With TCSEC, functionality and assurance are evaluated separately.",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "Database management systems are not covered by the TCSEC",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "q-85",
+      "text": "Which of the following files should the security administrator be restricted to READ only access?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Security parameters",
+          "isCorrect": false
+        },
+        {
+          "letter": "B",
+          "text": "System log",
+          "isCorrect": false
+        },
+        {
+          "letter": "C",
+          "text": "User profiles",
+          "isCorrect": true
+        },
+        {
+          "letter": "D",
+          "text": "User passwords",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
