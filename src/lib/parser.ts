@@ -10,7 +10,35 @@ export interface Question {
   id: string;
   text: string;
   options: QuestionOption[];
+  /**
+   * "mcq" (default) = multiple-choice; pick a letter.
+   * "fill" = fill-in-the-blank; type the answer into a text box.
+   */
+  type?: "mcq" | "fill";
+  /** For fill-in questions: the expected answer, as it appears in the source. */
+  answer?: string;
   explanation?: string;
+}
+
+/**
+ * Normalize a fill-in answer for case-insensitive / whitespace-insensitive
+ * comparison. Folds Unicode ligatures (ﬁ→fi, ﬂ→fl, etc.) and collapses
+ * spaces.
+ */
+export function normalizeAnswer(s: string): string {
+  return s
+    .normalize("NFKC")
+    .toLowerCase()
+    .replace(/[\u2018\u2019\u201c\u201d`]/g, "")
+    .replace(/[.,;:!?()[\]{}]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+/** Returns true if the user's typed answer matches the expected one. */
+export function fillInIsCorrect(user: string, expected: string): boolean {
+  if (!user || !expected) return false;
+  return normalizeAnswer(user) === normalizeAnswer(expected);
 }
 
 export interface ParseResult {

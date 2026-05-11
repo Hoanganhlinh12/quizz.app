@@ -2,11 +2,11 @@
   "id": "cne",
   "title": "CNE",
   "longName": "Mạng máy tính",
-  "description": "Đề ôn tập CNE Final Exam Review – Networking Concepts and Commands.",
+  "description": "Đề ôn tập CNE Final Exam Review – Networking Concepts and Commands (Q6-Q36, gồm cả câu điền đáp án).",
   "source": "https://www.studocu.vn/vn/document/truong-dai-hoc-ha-noi/mang-may-tinh/cne-final-exam-review-networking-concepts-and-commands/125264337",
   "questions": [
     {
-      "id": "q-1",
+      "id": "q-6",
       "text": "Which of the following commands on Windows is used to test reachability of a remote host and show (the part of) the list of intermediary hops?",
       "options": [
         {
@@ -16,7 +16,7 @@
         },
         {
           "letter": "B",
-          "text": "ping",
+          "text": "ping cái này ko có hops",
           "isCorrect": false
         },
         {
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "id": "q-2",
+      "id": "q-7",
       "text": "Given this network: 204.15.5.0/26. How many hosts are available for this network?",
       "options": [
         {
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "id": "q-3",
+      "id": "q-8",
       "text": "What is a correct netmask for a class A network?",
       "options": [
         {
@@ -84,7 +84,7 @@
       ]
     },
     {
-      "id": "q-4",
+      "id": "q-9",
       "text": "What is the first byte range of a class A network address?",
       "options": [
         {
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "id": "q-5",
+      "id": "q-10",
       "text": "Netmask is used to determine:",
       "options": [
         {
@@ -125,7 +125,7 @@
         },
         {
           "letter": "C",
-          "text": "An IP address is a",
+          "text": "An IP address is a DNS",
           "isCorrect": false
         },
         {
@@ -136,7 +136,7 @@
       ]
     },
     {
-      "id": "q-6",
+      "id": "q-11",
       "text": "Multicast IPv6 Address is:",
       "options": [
         {
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "id": "q-7",
+      "id": "q-12",
       "text": "If the physical address of an interface is 00-90-27-17-FC- OF, what is EUI-64 format address of this interface?",
       "options": [
         {
@@ -188,12 +188,12 @@
       ]
     },
     {
-      "id": "q-8",
+      "id": "q-13",
       "text": "How many bits are there in an IPv6 network address?",
       "options": [
         {
           "letter": "A",
-          "text": "32",
+          "text": "32 (ipv4)",
           "isCorrect": false
         },
         {
@@ -214,7 +214,7 @@
       ]
     },
     {
-      "id": "q-9",
+      "id": "q-14",
       "text": "How do they often write down an IPv6 address?",
       "options": [
         {
@@ -240,7 +240,7 @@
       ]
     },
     {
-      "id": "q-10",
+      "id": "q-15",
       "text": "Which of the following protocols uses distance vector routing algorithm?",
       "options": [
         {
@@ -266,7 +266,7 @@
       ]
     },
     {
-      "id": "q-11",
+      "id": "q-16",
       "text": "Which of the following protocols uses link state routing algorithm?",
       "options": [
         {
@@ -276,7 +276,7 @@
         },
         {
           "letter": "B",
-          "text": "OSPF",
+          "text": "OSPF: cho 2 router=> static",
           "isCorrect": true
         },
         {
@@ -292,7 +292,7 @@
       ]
     },
     {
-      "id": "q-12",
+      "id": "q-17",
       "text": "Non-adaptive algorithm is used in",
       "options": [
         {
@@ -302,7 +302,7 @@
         },
         {
           "letter": "B",
-          "text": "Static routing protocols",
+          "text": "Static (tĩnh) routing protocols",
           "isCorrect": true
         },
         {
@@ -318,7 +318,7 @@
       ]
     },
     {
-      "id": "q-13",
+      "id": "q-18",
       "text": "Which of the following services is connectionless?",
       "options": [
         {
@@ -334,7 +334,7 @@
       ]
     },
     {
-      "id": "q-14",
+      "id": "q-19",
       "text": "In TCP, the receiver merges the data based on",
       "options": [
         {
@@ -344,23 +344,23 @@
         },
         {
           "letter": "B",
-          "text": "Acknowledgement number",
+          "text": "Acknowledgement number: Số xác nhận được sử dụng bởi người nhận để thông báo cho người gửi dữ liệu mà nó đã nhận được thành công.",
           "isCorrect": false
         },
         {
           "letter": "C",
-          "text": "Port number",
+          "text": "Port number: Số cổng được sử dụng để xác định các ứng dụng hoặc quy trình cụ thể trên máy chủ.",
           "isCorrect": false
         },
         {
           "letter": "D",
-          "text": "Arriving order:",
+          "text": "Arriving order",
           "isCorrect": false
         }
       ]
     },
     {
-      "id": "q-15",
+      "id": "q-20",
       "text": "What is the socket address?",
       "options": [
         {
@@ -386,7 +386,7 @@
       ]
     },
     {
-      "id": "q-16",
+      "id": "q-21",
       "text": "How to establish a TCP connection?",
       "options": [
         {
@@ -412,7 +412,35 @@
       ]
     },
     {
-      "id": "q-17",
+      "id": "q-22",
+      "text": "Router command to display the running configuration:",
+      "type": "fill",
+      "options": [],
+      "answer": "Configure Terminal"
+    },
+    {
+      "id": "q-23",
+      "text": "Router command to change Router's name to FIT-HANU:",
+      "type": "fill",
+      "options": [],
+      "answer": "Hostname FIT-HANU"
+    },
+    {
+      "id": "q-24",
+      "text": "In Wireshark, write the Capture Filter to capture only http and dns packets:",
+      "type": "fill",
+      "options": [],
+      "answer": "port 53 and port 80"
+    },
+    {
+      "id": "q-25",
+      "text": "Router command to copy the running configuration to the startup configuration:",
+      "type": "fill",
+      "options": [],
+      "answer": "copy running-config startup-config"
+    },
+    {
+      "id": "q-26",
       "text": "What is the command to show IPv4 routing table?",
       "options": [
         {
@@ -438,7 +466,7 @@
       ]
     },
     {
-      "id": "q-18",
+      "id": "q-27",
       "text": "On Windows Server network operating system, what is often used to implement and administer some network services like web serv email server, ftp server?",
       "options": [
         {
@@ -464,7 +492,7 @@
       ]
     },
     {
-      "id": "q-19",
+      "id": "q-28",
       "text": "What is the command to set up IPv4 static routing in Packet tracer?",
       "options": [
         {
@@ -490,7 +518,7 @@
       ]
     },
     {
-      "id": "q-20",
+      "id": "q-29",
       "text": "Which of the following is the address of the router?",
       "options": [
         {
@@ -516,7 +544,7 @@
       ]
     },
     {
-      "id": "q-21",
+      "id": "q-30",
       "text": "What can greatly reduce IP address configuration problems?",
       "options": [
         {
@@ -542,17 +570,17 @@
       ]
     },
     {
-      "id": "q-22",
+      "id": "q-31",
       "text": "What is default port of POP3 service?",
       "options": [
         {
           "letter": "A",
-          "text": "80",
+          "text": "80: HTTP",
           "isCorrect": false
         },
         {
           "letter": "B",
-          "text": "25",
+          "text": "25: SMTP",
           "isCorrect": false
         },
         {
@@ -562,13 +590,13 @@
         },
         {
           "letter": "D",
-          "text": "53",
+          "text": "53: DNS ·  The default standard port for POP3 (Post Office Protocol version 3) is 110. ·  Port 80 is for HTTP (web traffic). ·  Port 25 is for SMTP (sending email). ·  Port 53 is for DNS (Domain Name System).",
           "isCorrect": false
         }
       ]
     },
     {
-      "id": "q-23",
+      "id": "q-32",
       "text": "On which of the following protocols in Transport layer is SNMP (Simple Network Management Protocol) based?",
       "options": [
         {
@@ -582,6 +610,34 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "id": "q-33",
+      "text": "What are maximum number of hosts of the network 192.168.1.0/29",
+      "type": "fill",
+      "options": [],
+      "answer": "6"
+    },
+    {
+      "id": "q-34",
+      "text": "What is the subnet mask of 193.61.255.213/30",
+      "type": "fill",
+      "options": [],
+      "answer": "255.255.255.252"
+    },
+    {
+      "id": "q-35",
+      "text": "Change the following IP address from binary notation to dotted-decimal notation: 01101111 01000001 11111000 10000100",
+      "type": "fill",
+      "options": [],
+      "answer": "111.65.248.132"
+    },
+    {
+      "id": "q-36",
+      "text": "Change the following IP address from dotted-decimal notation to binary notation: 216.146.46.11",
+      "type": "fill",
+      "options": [],
+      "answer": "11011000 10010010 00101110 00001011"
     }
   ]
 }

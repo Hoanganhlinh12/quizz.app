@@ -24,6 +24,7 @@ import {
   parsePlainText,
   parseHtml,
   parseUrl,
+  fillInIsCorrect,
   SAMPLE_TEXT,
   type Question,
   type ParseResult,
@@ -65,6 +66,11 @@ function App() {
     if (questions.length === 0) return;
     const orders: Record<string, number[]> = {};
     for (const q of questions) {
+      // Fill-in questions have no options; skip shuffling.
+      if (q.type === "fill") {
+        orders[q.id] = [];
+        continue;
+      }
       const idxs = q.options.map((_, i) => i);
       if (shuffleOptions) shuffleArray(idxs);
       orders[q.id] = idxs;
@@ -665,14 +671,22 @@ function QuizView(props: {
   onFinish: () => void;
 }) {
   const q = props.questions[props.currentIdx];
+  const isFill = q.type === "fill";
   const order = props.optionOrders[q.id] || q.options.map((_, i) => i);
   const userAnswerLetter = props.answers[q.id];
+  const userTypedAnswer = props.answers[q.id] ?? "";
   const isSubmitted = props.submitted[q.id] === true;
   const [editMode, setEditMode] = useState(false);
   const showResult =
     !editMode && (props.revealMode === "instant" || isSubmitted);
   const isLast = props.currentIdx === props.questions.length - 1;
-  const hasOverride = !!props.correctOverrides[q.id]?.length;
+  const hasOverride = !isFill && !!props.correctOverrides[q.id]?.length;
+  const fillCorrect = isFill
+    ? fillInIsCorrect(userTypedAnswer, q.answer ?? "")
+    : false;
+  const userHasAnswered = isFill
+    ? userTypedAnswer.trim().length > 0
+    : !!userAnswerLetter;
 
   function pick(letter: string) {
     if (editMode) {
@@ -709,7 +723,7 @@ function QuizView(props: {
   }
 
   function submitOrNext() {
-    if (props.revealMode === "after-submit" && !isSubmitted && userAnswerLetter) {
+    if (props.revealMode === "after-submit" && !isSubmitted && userHasAnswered) {
       props.setSubmitted((s) => ({ ...s, [q.id]: true }));
       return;
     }
@@ -717,6 +731,19 @@ function QuizView(props: {
       props.onFinish();
     } else {
       props.setCurrentIdx(props.currentIdx + 1);
+    }
+  }
+
+  function setFillAnswer(value: string) {
+    props.setAnswers((a) => ({ ...a, [q.id]: value }));
+    if (props.revealMode === "instant" && value.trim().length > 0) {
+      // Don't auto-submit on typing in instant mode — wait for blur/enter.
+    }
+  }
+
+  function submitFill() {
+    if (props.revealMode === "after-submit" && userTypedAnswer.trim()) {
+      props.setSubmitted((s) => ({ ...s, [q.id]: true }));
     }
   }
 
@@ -732,24 +759,26 @@ function QuizView(props: {
             <strong>{answeredCount}</strong>
           </div>
           <div className="flex flex-wrap items-center gap-2 text-xs">
-            <button
-              onClick={() => setEditMode((m) => !m)}
-              className={`flex items-center gap-1 px-2 py-1 rounded border ${
-                editMode
-                  ? "border-rose-300 bg-rose-50 text-rose-700"
+            {!isFill && (
+              <button
+                onClick={() => setEditMode((m) => !m)}
+                className={`flex items-center gap-1 px-2 py-1 rounded border ${
+                  editMode
+                    ? "border-rose-300 bg-rose-50 text-rose-700"
+                    : hasOverride
+                    ? "border-emerald-300 bg-emerald-50 text-emerald-700"
+                    : "border-slate-200 text-slate-500"
+                }`}
+                title="Sửa lại đáp án đúng cho câu này"
+              >
+                {editMode ? <Save size={12} /> : <Pencil size={12} />}{" "}
+                {editMode
+                  ? "Click đáp án đúng…"
                   : hasOverride
-                  ? "border-emerald-300 bg-emerald-50 text-emerald-700"
-                  : "border-slate-200 text-slate-500"
-              }`}
-              title="Sửa lại đáp án đúng cho câu này"
-            >
-              {editMode ? <Save size={12} /> : <Pencil size={12} />}{" "}
-              {editMode
-                ? "Click đáp án đúng…"
-                : hasOverride
-                ? "Đã sửa đáp án"
-                : "Sửa đáp án"}
-            </button>
+                  ? "Đã sửa đáp án"
+                  : "Sửa đáp án"}
+              </button>
+            )}
             {hasOverride && !editMode && (
               <button
                 onClick={clearOverride}
@@ -759,17 +788,19 @@ function QuizView(props: {
                 <RefreshCw size={12} /> Reset
               </button>
             )}
-            <button
-              onClick={() => props.setShuffleOptions(!props.shuffleOptions)}
-              className={`flex items-center gap-1 px-2 py-1 rounded border ${
-                props.shuffleOptions
-                  ? "border-indigo-300 bg-indigo-50 text-indigo-700"
-                  : "border-slate-200 text-slate-500"
-              }`}
-              title="Xáo trộn thứ tự đáp án"
-            >
-              <Shuffle size={12} /> Trộn đáp án
-            </button>
+            {!isFill && (
+              <button
+                onClick={() => props.setShuffleOptions(!props.shuffleOptions)}
+                className={`flex items-center gap-1 px-2 py-1 rounded border ${
+                  props.shuffleOptions
+                    ? "border-indigo-300 bg-indigo-50 text-indigo-700"
+                    : "border-slate-200 text-slate-500"
+                }`}
+                title="Xáo trộn thứ tự đáp án"
+              >
+                <Shuffle size={12} /> Trộn đáp án
+              </button>
+            )}
             <button
               onClick={() =>
                 props.setRevealMode(
@@ -818,6 +849,43 @@ function QuizView(props: {
           </div>
         )}
 
+        {isFill ? (
+          <div className="space-y-2">
+            <label className="block text-xs text-slate-500 mb-1">
+              Gõ đáp án vào ô dưới (không phân biệt hoa thường):
+            </label>
+            <input
+              type="text"
+              value={userTypedAnswer}
+              onChange={(e) => setFillAnswer(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") {
+                  e.preventDefault();
+                  submitFill();
+                }
+              }}
+              disabled={
+                showResult &&
+                props.revealMode === "after-submit" &&
+                isSubmitted
+              }
+              placeholder="Ví dụ: 255.255.255.0"
+              className={`w-full px-4 py-3 border-2 rounded-lg text-slate-900 focus:outline-none focus:ring-2 focus:ring-indigo-200 ${
+                showResult
+                  ? fillCorrect
+                    ? "border-green-500 bg-green-50"
+                    : "border-red-400 bg-red-50"
+                  : "border-slate-300 bg-white focus:border-indigo-500"
+              }`}
+            />
+            {!showResult && (
+              <p className="text-xs text-slate-400">
+                Mẹo: bấm <kbd className="px-1 rounded bg-slate-100 border">Enter</kbd>{" "}
+                để chấm, hoặc bấm nút <strong>Kiểm tra</strong> bên dưới.
+              </p>
+            )}
+          </div>
+        ) : (
         <div className="space-y-2">
           {order.map((origIdx, displayIdx) => {
             const opt = q.options[origIdx];
@@ -886,16 +954,23 @@ function QuizView(props: {
             );
           })}
         </div>
+        )}
 
         {showResult && (
           <div
             className={`mt-5 px-4 py-3 rounded-md text-sm ${
-              q.options.find((o) => o.letter === userAnswerLetter)?.isCorrect
+              (isFill
+                ? fillCorrect
+                : q.options.find((o) => o.letter === userAnswerLetter)?.isCorrect)
                 ? "bg-green-50 text-green-800 border border-green-200"
                 : "bg-red-50 text-red-800 border border-red-200"
             }`}
           >
-            {q.options.find((o) => o.letter === userAnswerLetter)?.isCorrect
+            {isFill
+              ? fillCorrect
+                ? "Chính xác!"
+                : `Sai rồi. Đáp án đúng: ${q.answer ?? "(không có)"}`
+              : q.options.find((o) => o.letter === userAnswerLetter)?.isCorrect
               ? "Chính xác!"
               : `Sai rồi. Đáp án đúng: ${
                   q.options
@@ -921,7 +996,7 @@ function QuizView(props: {
           disabled={
             props.revealMode === "after-submit" &&
             !isSubmitted &&
-            !userAnswerLetter
+            !userHasAnswered
           }
           className="inline-flex items-center gap-1 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 disabled:bg-slate-300 text-white rounded-md text-sm font-medium"
         >
@@ -943,15 +1018,13 @@ function QuizView(props: {
         <div className="flex flex-wrap gap-2">
           {props.questions.map((qq, i) => {
             const ans = props.answers[qq.id];
-            const ok =
-              ans &&
-              qq.options.find((o) => o.letter === ans)?.isCorrect &&
-              props.submitted[qq.id];
-            const wrong =
-              ans &&
-              !qq.options.find((o) => o.letter === ans)?.isCorrect &&
-              props.submitted[qq.id];
-            const answered = !!ans;
+            const isFillQ = qq.type === "fill";
+            const isCorrect = isFillQ
+              ? fillInIsCorrect(ans ?? "", qq.answer ?? "")
+              : !!qq.options.find((o) => o.letter === ans)?.isCorrect;
+            const ok = !!ans && isCorrect && props.submitted[qq.id];
+            const wrong = !!ans && !isCorrect && props.submitted[qq.id];
+            const answered = !!ans && (isFillQ ? ans.trim().length > 0 : true);
             return (
               <button
                 key={qq.id}
@@ -1004,7 +1077,12 @@ function ResultView(props: {
     let correct = 0;
     for (const q of props.questions) {
       const ans = props.answers[q.id];
-      if (ans && q.options.find((o) => o.letter === ans)?.isCorrect) correct++;
+      if (!ans) continue;
+      if (q.type === "fill") {
+        if (fillInIsCorrect(ans, q.answer ?? "")) correct++;
+      } else if (q.options.find((o) => o.letter === ans)?.isCorrect) {
+        correct++;
+      }
     }
     return { correct, total: props.questions.length };
   }, [props.questions, props.answers]);
@@ -1052,17 +1130,28 @@ function ResultView(props: {
         <h3 className="font-semibold text-slate-900 mb-3">Xem lại từng câu</h3>
         <div className="space-y-4">
           {props.questions.map((q, i) => {
-            const userAnsLetter = props.answers[q.id];
-            const userAns = q.options.find((o) => o.letter === userAnsLetter);
+            const userAnsRaw = props.answers[q.id];
+            const isFillQ = q.type === "fill";
+            const userAns = isFillQ
+              ? undefined
+              : q.options.find((o) => o.letter === userAnsRaw);
             const correct = q.options.filter((o) => o.isCorrect);
-            const isCorrect = !!userAns?.isCorrect;
+            const isCorrect = isFillQ
+              ? fillInIsCorrect(userAnsRaw ?? "", q.answer ?? "")
+              : !!userAns?.isCorrect;
+            const userAnsText = isFillQ
+              ? userAnsRaw ?? ""
+              : userAns?.text ?? "";
+            const hasAns = isFillQ
+              ? (userAnsRaw ?? "").trim().length > 0
+              : !!userAns;
             return (
               <div
                 key={q.id}
                 className={`border rounded-lg p-4 ${
                   isCorrect
                     ? "border-green-200 bg-green-50/40"
-                    : userAns
+                    : hasAns
                     ? "border-red-200 bg-red-50/40"
                     : "border-slate-200"
                 }`}
@@ -1072,7 +1161,7 @@ function ResultView(props: {
                     className={`flex-shrink-0 inline-flex items-center justify-center w-6 h-6 rounded-full text-xs font-semibold ${
                       isCorrect
                         ? "bg-green-500 text-white"
-                        : userAns
+                        : hasAns
                         ? "bg-red-500 text-white"
                         : "bg-slate-300 text-white"
                     }`}
@@ -1086,21 +1175,23 @@ function ResultView(props: {
                     Đáp án của anh:{" "}
                     <span
                       className={
-                        userAns
+                        hasAns
                           ? isCorrect
                             ? "text-green-700 font-medium"
                             : "text-red-700 font-medium"
                           : "text-slate-400 italic"
                       }
                     >
-                      {userAns ? userAns.text : "(chưa trả lời)"}
+                      {hasAns ? userAnsText : "(chưa trả lời)"}
                     </span>
                   </p>
                   {!isCorrect && (
                     <p className="text-slate-600">
                       Đáp án đúng:{" "}
                       <span className="text-green-700 font-medium">
-                        {correct.length > 0
+                        {isFillQ
+                          ? q.answer ?? "(không có)"
+                          : correct.length > 0
                           ? correct.map((o) => o.text).join(", ")
                           : "(không phát hiện được)"}
                       </span>
